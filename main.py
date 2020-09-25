@@ -11,11 +11,11 @@ pygame.display.set_caption("Space Shooter")
 
 # Load images
 RED_SPACE_SHIP = pygame.image.load(
-    os.path.join("assets", "pixel_ship_red_small.png"))
+    os.path.join("assets", "red_monster.png"))
 GREEN_SPACE_SHIP = pygame.image.load(
-    os.path.join("assets", "pixel_ship_green_small.png"))
+    os.path.join("assets", "green_monster.png"))
 BLUE_SPACE_SHIP = pygame.image.load(
-    os.path.join("assets", "pixel_ship_blue_small.png"))
+    os.path.join("assets", "blue_monster.png"))
 
 # Player ship
 YELLOW_SPACE_SHIP = pygame.image.load(
@@ -33,7 +33,7 @@ YELLOW_LASER = pygame.image.load(
 
 # Backgroud
 BG = pygame.transform.scale(pygame.image.load(
-    os.path.join("assets", "background-black.png")), (WIDTH, HEIGHT))
+    os.path.join("assets", "background_space.png")), (WIDTH, HEIGHT))
 
 
 class Laser():
